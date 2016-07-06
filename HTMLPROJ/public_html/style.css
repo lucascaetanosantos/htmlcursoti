@@ -1,5 +1,6 @@
 *{
     -webkit-user-select: none;
+    cursor: url(imagens/cur.gif), default;
 }
 
 .back{
@@ -62,6 +63,7 @@
     color: whitesmoke;
     font-size: 40px;
     margin-right: 10px;
+    cursor:default;
 }
 .logoCB{
     float: right;
@@ -80,6 +82,7 @@
     font-family: arial;
     font-size: 20px;
     text-align: justify;
+    cursor:default;
 }
 
 .prop{
@@ -93,6 +96,7 @@
     height: auto;
     margin-bottom: 10px;
     -webkit-box-shadow: 2px -2px 0px gainsboro;
+    cursor:default;
 }
 
 .rodaP{
