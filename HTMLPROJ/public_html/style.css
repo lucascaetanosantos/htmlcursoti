@@ -1,6 +1,11 @@
+@font-face {
+    font-family: "Arrie";
+    src: url("fontes/ArrieGarde.ttf");
+
+}
+
 *{
     -webkit-user-select: none;
-    cursor: url(imagens/cur.gif), default;
 }
 
 .back{
@@ -68,10 +73,10 @@
 .logoCB{
     float: right;
     background-image: url(imagens/LogoCB.png);
-    background-size: auto 40px;
+    background-size: 40px 40px;
     margin-top: 5px;
     margin-right: 20px;
-    width: 85px;
+    width: 40px;
     height: 40px;
 
 }
@@ -85,7 +90,7 @@
     cursor:default;
 }
 
-.prop{
+.log{
     float: right;
     position: relative;
     top: 75px;
@@ -107,15 +112,16 @@
     width: 100%;
     height: 60px;
     background: #7A0001;
+    color: whitesmoke;
+    font-family: Arrie;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .textoAp#prop{
-    padding: 20px 20px;
+    margin: 5% 5%;
     font-size: 16px;
-}
-
-h1#prop{
-    font-size: 30px;
 }
 
 .ImgProp{
@@ -137,8 +143,39 @@ h1#prop{
     -webkit-box-shadow: 0px -5px 50px black;
 }
 
-@font-face {
-    font-family: "Arrie";
-    src: url("fontes/ArrieGarde.ttf");
+.caixaPerfil{
+    background-color: lightgray;
+    float: top;
+    position: relative;
+    width: 95%;
+    height: 220px;
+    margin: 20px 20px;
+    -webkit-box-shadow: 0px 2px 0px #7A0001;
+    
+}
+.foto{
+    float: left;
+    position: relative;
+    margin-left: 5%;
+    height: 80%;
+    padding: 20px 20px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 2px 2px 5px gray;
+    color: #202020;
+}
+.textI{
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10%;
+    color: #202020;
+    font-family: arial;
+    font-size: 20px;
+    text-align: justify;
+}
 
+a{
+    text-decoration: none;
+    color: #7A0001;
 }
